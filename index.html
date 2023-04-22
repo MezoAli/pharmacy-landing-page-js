@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Dr. Moutaz Ali Pharmacy</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+			integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="content/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="content/css/style.css" />
+	</head>
+	<body>
+		<!-- SECTION-START scrool top button -->
+		<a class="btn btn-info top-button" href="#">
+			<i class="fas fa-arrow-up"></i>
+		</a>
+		<!-- SECTION-END  scrool top button-->
+
+		<!-- SECTION-START  loader-->
+		<div class="loader-container">
+			<div class="loader"></div>
+		</div>
+		<!-- SECTION-END  loader-->
+
+		<!-- SECTION-START navbar -->
+		<nav
+			class="navbar navbar-expand-lg navbar-dark bg-info position-sticky top-0"
+		>
+			<div class="container">
+				<a class="navbar-brand" href="#">Dr. Moutaz Ali Pharmacy</a>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarSupportedContent"
+					aria-controls="navbarSupportedContent"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="#home"
+								>Home</a
+							>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#about">About</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#team">Team</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#faqs">FAQs</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#contact">Contact Us</a>
+						</li>
+						<li class="nav-item">
+							<a
+								class="nav-link"
+								href="#contact"
+								data-bs-toggle="modal"
+								data-bs-target="#exampleModal"
+								>Sign Up</a
+							>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!-- SECTION-END navbar-->
+		<!-- SECTION-START slider -->
+		<section id="home" class="py-3">
+			<div class="container">
+				<div
+					id="carouselExampleIndicators"
+					class="carousel slide"
+					data-bs-ride="carousel"
+				>
+					<div class="carousel-indicators">
+						<button
+							type="button"
+							data-bs-target="#carouselExampleIndicators"
+							data-bs-slide-to="0"
+							class="active"
+							aria-current="true"
+							aria-label="Slide 1"
+						></button>
+						<button
+							type="button"
+							data-bs-target="#carouselExampleIndicators"
+							data-bs-slide-to="1"
+							aria-label="Slide 2"
+						></button>
+						<button
+							type="button"
+							data-bs-target="#carouselExampleIndicators"
+							data-bs-slide-to="2"
+							aria-label="Slide 3"
+						></button>
+						<button
+							type="button"
+							data-bs-target="#carouselExampleIndicators"
+							data-bs-slide-to="3"
+							aria-label="Slide 4"
+						></button>
+					</div>
+					<div class="carousel-inner">
+						<div class="carousel-item active position-relative">
+							<img
+								src="content/assets/images/slider1.jpg"
+								class="d-block w-100"
+							/>
+							<div
+								class="
+									position-absolute
+									text-center text-capitalize text-light
+									carousel-item-container
+									d-none d-md-block
+								"
+							>
+								<p class="mb-5 fs-1">wellcome to your pharmacy</p>
+								<p class="mb-5 fs-3">
+									we have all you need to improve your health
+								</p>
+								<button class="btn btn-info text-capitalize">
+									learn more about us
+								</button>
+							</div>
+						</div>
+						<div class="carousel-item position-relative">
+							<img
+								src="content/assets/images/slider2.jpg"
+								class="d-block w-100"
+								alt="..."
+							/>
+							<div
+								class="
+									position-absolute
+									text-center text-capitalize text-light
+									carousel-item-container__branches
+									d-none d-md-block
+								"
+							>
+								<p class="mb-5 fs-1 d-none d-lg-block">
+									we are always next to you
+								</p>
+								<button class="btn btn-info text-capitalize">
+									learn more about our branches
+								</button>
+							</div>
+						</div>
+						<div class="carousel-item position-relative">
+							<img
+								src="content/assets/images/slider3.jpg"
+								class="d-block w-100"
+								alt="..."
+							/>
+							<div
+								class="
+									position-absolute
+									text-center text-capitalize text-light
+									carousel-item-container
+									d-none d-md-block
+								"
+							>
+								<p class="mb-5 fs-1 d-none d-lg-block">
+									most sterlized environment
+								</p>
+								<button class="btn btn-info text-capitalize">
+									learn about sterlization process
+								</button>
+							</div>
+						</div>
+						<div class="carousel-item position-relative">
+							<img
+								src="content/assets/images/slider4.jpg"
+								class="d-block w-100"
+								alt="..."
+							/>
+							<div
+								class="
+									position-absolute
+									text-center text-capitalize text-light
+									carousel-item-container__branches
+									d-none d-md-block
+								"
+							>
+								<p class="mb-5 fs-1 d-none d-lg-block">
+									best offers only for you
+								</p>
+								<button class="btn btn-info text-capitalize">
+									learn more about our offers
+								</button>
+							</div>
+						</div>
+					</div>
+					<button
+						class="carousel-control-prev"
+						type="button"
+						data-bs-target="#carouselExampleIndicators"
+						data-bs-slide="prev"
+					>
+						<span
+							class="carousel-control-prev-icon prev-button"
+							aria-hidden="true"
+						></span>
+						<span class="visually-hidden">Previous</span>
+					</button>
+					<button
+						class="carousel-control-next"
+						type="button"
+						data-bs-target="#carouselExampleIndicators"
+						data-bs-slide="next"
+					>
+						<span
+							class="carousel-control-next-icon next-button"
+							aria-hidden="true"
+						></span>
+						<span class="visually-hidden">Next</span>
+					</button>
+				</div>
+			</div>
+		</section>
+		<!-- SECTION-END slider -->
+		<!-- SECTION-START about us-->
+		<section id="about" class="py-5 about__section mb-3">
+			<div class="container">
+				<div class="about__content py-3 text-center text-light text-capitalize">
+					<p class="fs-1 text-dark fw-bolder mb-4">about us</p>
+					<p class="fs-3 mb-4">
+						since our establishment in assiut at 1960, we serve people living in
+						upper egypt with all drugs they require to treat them and by time we
+						made a new branch at cairo to expand our services
+					</p>
+					<p class="fs-4 mb-3">
+						we deliver all kind of drugs covering all theraputic areas including
+						oncology medicines both national and international products
+					</p>
+					<a
+						href="https://goo.gl/maps/YyZkt3JLyzpYen627"
+						class="
+							btn btn-info
+							text-uppercase
+							fw-bold
+							px-3
+							d-none d-lg-inline-block
+						"
+						target="_blank"
+						>location <i class="fas fa-map-marker-alt"></i
+					></a>
+				</div>
+			</div>
+		</section>
+		<!-- SECTION-END about us -->
+		<!-- SECTION-START team -->
+		<section id="team" class="py-5">
+			<div class="container">
+				<p class="fs-1 text-uppercase text-info text-center">team</p>
+				<p class="fs-3 text-capitalize text-dark text-center mb-4">
+					meet our experts with experience of more than 20 years
+				</p>
+				<div class="row row-cols-1 row-cols-lg-3 g-2">
+					<div class="col">
+						<div class="card">
+							<img
+								src="./content/assets/images/worker1.jpg"
+								class="card-img-top"
+							/>
+							<div class="card-body text-capitalize">
+								<h4 class="card-title">dr. moutaz ali</h4>
+								<h5 class="card-title">pharmacy director</h5>
+								<p class="card-text mb-3">
+									have a big experience in oncology,cardiology,urology and
+									internal medicine
+								</p>
+								<div class="text-center">
+									<i class="fab fa-facebook fs-3 text-info"></i>
+									<i class="fab fa-twitter fs-3 text-info mx-3"></i>
+									<i class="fab fa-instagram fs-3 text-info me-3"></i>
+									<i class="fab fa-linkedin fs-3 text-info"></i>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="card">
+							<img
+								src="./content/assets/images/worker2.jpg"
+								class="card-img-top"
+							/>
+							<div class="card-body text-capitalize">
+								<h4 class="card-title">dr. mohamed ali</h4>
+								<h5 class="card-title">pharmacy manager</h5>
+								<p class="card-text mb-3">
+									have a big experience in rhematology,cardiolgy,opthalmology
+									and neural medicine
+								</p>
+								<div class="text-center">
+									<i class="fab fa-facebook fs-3 text-info"></i>
+									<i class="fab fa-twitter fs-3 text-info mx-3"></i>
+									<i class="fab fa-instagram fs-3 text-info me-3"></i>
+									<i class="fab fa-linkedin fs-3 text-info"></i>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="card">
+							<img
+								src="./content/assets/images/worker3.jpg"
+								class="card-img-top"
+							/>
+							<div class="card-body text-capitalize">
+								<h4 class="card-title">dr. ahmed ali</h4>
+								<h5 class="card-title">pharmacy technican</h5>
+								<p class="card-text mb-3">
+									have a big experience in dentistry,orthopedic,pediatric and
+									central nervous system
+								</p>
+								<div class="text-center">
+									<i class="fab fa-facebook fs-3 text-info"></i>
+									<i class="fab fa-twitter fs-3 text-info mx-3"></i>
+									<i class="fab fa-instagram fs-3 text-info me-3"></i>
+									<i class="fab fa-linkedin fs-3 text-info"></i>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- SECTION-END team -->
+		<!-- SECTION-START faqs -->
+		<section id="faqs" class="py-5 bg-dark">
+			<div class="container">
+				<p class="fs-1 text-uppercase text-info text-center mb-5">FAQs</p>
+				<div class="row row-cols-1 row-cols-lg-2 g-4">
+					<div class="col">
+						<div class="accordion" id="accordionExample">
+							<div class="accordion-item">
+								<h2 class="accordion-header" id="headingOne">
+									<button
+										class="accordion-button text-capitalize fs-5 text-info"
+										type="button"
+										data-bs-toggle="collapse"
+										data-bs-target="#collapseOne"
+										aria-expanded="true"
+										aria-controls="collapseOne"
+									>
+										what can we deal with covid-19 pandimic !?
+									</button>
+								</h2>
+								<div
+									id="collapseOne"
+									class="
+										accordion-collapse
+										collapse
+										show
+										bg-info
+										text-capitalize
+										fs-6
+									"
+									aria-labelledby="headingOne"
+									data-bs-parent="#accordionExample"
+								>
+									<div class="accordion-body">
+										the most important part is to stay calm and don't be panic,
+										second it's so important to take the precaution procedures
+										inclusing mask, hand sensitizer and saty away at least for 1
+										meter from other people
+									</div>
+								</div>
+							</div>
+							<div class="accordion-item">
+								<h2 class="accordion-header" id="headingTwo">
+									<button
+										class="
+											accordion-button
+											collapsed
+											text-capitalize
+											fs-5
+											text-info
+										"
+										type="button"
+										data-bs-toggle="collapse"
+										data-bs-target="#collapseTwo"
+										aria-expanded="false"
+										aria-controls="collapseTwo"
+									>
+										how could your pharmacy help us with covid-19 !?
+									</button>
+								</h2>
+								<div
+									id="collapseTwo"
+									class="
+										accordion-collapse
+										collapse
+										bg-info
+										text-capitalize
+										fs-6
+									"
+									aria-labelledby="headingTwo"
+									data-bs-parent="#accordionExample"
+								>
+									<div class="accordion-body">
+										actually we can help you during all stages of covid-19 from
+										diagnosis with rapid test till treatment with all medication
+										you need even we can help with the vaccination with modern
+										vaccines
+									</div>
+								</div>
+							</div>
+							<div class="accordion-item">
+								<h2 class="accordion-header" id="headingThree">
+									<button
+										class="
+											accordion-button
+											collapsed
+											text-capitalize
+											fs-5
+											text-info
+										"
+										type="button"
+										data-bs-toggle="collapse"
+										data-bs-target="#collapseThree"
+										aria-expanded="false"
+										aria-controls="collapseThree"
+									>
+										do you have offers on cosmotics and medications !?
+									</button>
+								</h2>
+								<div
+									id="collapseThree"
+									class="
+										accordion-collapse
+										collapse
+										bg-info
+										text-capitalize
+										fs-6
+									"
+									aria-labelledby="headingThree"
+									data-bs-parent="#accordionExample"
+								>
+									<div class="accordion-body">
+										sure, for cosmotics we have a great offers including all
+										brands but unfortunatly for medications we can't provide
+										offers as the code of ethics prevent us from giving offers
+										for the medications
+									</div>
+								</div>
+							</div>
+							<div class="accordion-item">
+								<h2 class="accordion-header" id="headingFour">
+									<button
+										class="
+											accordion-button
+											collapsed
+											text-capitalize
+											fs-5
+											text-info
+										"
+										type="button"
+										data-bs-toggle="collapse"
+										data-bs-target="#collapseFour"
+										aria-expanded="false"
+										aria-controls="collapseFour"
+									>
+										what about partnerships !?
+									</button>
+								</h2>
+								<div
+									id="collapseFour"
+									class="
+										accordion-collapse
+										collapse
+										bg-info
+										text-capitalize
+										fs-6
+									"
+									aria-labelledby="headingFour"
+									data-bs-parent="#accordionExample"
+								>
+									<div class="accordion-body">
+										we have partnerships with almost all health insurance
+										companies all that you need the member ship card and the
+										prescription and we will do all the work for you
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="ratio ratio-16x9">
+							<iframe
+								src="https://www.youtube.com/embed/Hj2cMVe1DdE"
+								title="YouTube video player"
+								frameborder="0"
+								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+								allowfullscreen
+							></iframe>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- SECTION-END faqs -->
+		<!-- SECTION-START  contact us-->
+		<section id="contact" class="py-5">
+			<div class="container">
+				<p class="fs-1 text-info text-uppercase text-center">contact us</p>
+				<div class="row row-cols-1 row-cols-lg-2 g-4">
+					<div class="col">
+						<form class="row g-3 needs-validation" novalidate>
+							<div class="col-md-6">
+								<label for="validationCustom01" class="form-label"
+									>Full name</label
+								>
+								<input
+									type="text"
+									class="form-control"
+									id="validationCustom01"
+									required
+								/>
+								<div class="valid-feedback">Looks good!</div>
+							</div>
+							<div class="col-md-6">
+								<label for="validationCustomUsername" class="form-label"
+									>Username</label
+								>
+								<div class="input-group has-validation">
+									<span class="input-group-text" id="inputGroupPrepend">@</span>
+									<input
+										type="text"
+										class="form-control"
+										id="validationCustomUsername"
+										aria-describedby="inputGroupPrepend"
+										required
+									/>
+									<div class="invalid-feedback">Please choose a username.</div>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<label for="validationCustom03" class="form-label">City</label>
+								<input
+									type="text"
+									class="form-control"
+									id="validationCustom03"
+									required
+								/>
+								<div class="invalid-feedback">Please provide a valid city.</div>
+							</div>
+							<div class="col-md-6">
+								<label for="validationCustom04" class="form-label">State</label>
+								<select class="form-select" id="validationCustom04" required>
+									<option selected disabled value="">Choose state</option>
+									<option>Assiut</option>
+									<option>Sohag</option>
+									<option>Qena</option>
+									<option>Luxor</option>
+									<option>Aswan</option>
+									<option>Red Sea</option>
+									<option>Safaga</option>
+									<option>Minia</option>
+									<option>Fayoum</option>
+									<option>Bani Suef</option>
+									<option>Cairo</option>
+									<option>Alex</option>
+								</select>
+								<div class="invalid-feedback">Please select a valid state.</div>
+							</div>
+							<div class="mb-3">
+								<label for="Textarea" class="form-label"
+									>please write your message</label
+								>
+								<textarea
+									class="form-control"
+									id="Textarea"
+									rows="3"
+								></textarea>
+							</div>
+							<div class="col-12 text-center">
+								<button
+									class="btn btn-info text-uppercase fw-bold"
+									type="submit"
+								>
+									send message
+								</button>
+							</div>
+						</form>
+					</div>
+					<div class="col">
+						<div class="map-container ratio ratio-16x9">
+							<iframe
+								src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28394.714424833815!2d31.166908402745175!3d27.17707064077033!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14450be607cb7bcd%3A0xba699162bfc01112!2sAsyut%2C%20Al%20Hamraa%20Ath%20Thaneyah%2C%20El%20Fateh%2C%20Assiut%20Governorate!5e0!3m2!1sen!2seg!4v1638726208955!5m2!1sen!2seg"
+								style="border: 0"
+								allowfullscreen=""
+								loading="lazy"
+							></iframe>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- SECTION-END  contact us-->
+		<!-- SECTION-START footer -->
+		<footer class="text-center text-lg-start bg-dark text-muted">
+			<section
+				class="
+					container
+					d-flex
+					justify-content-center justify-content-lg-between
+					py-3
+					border-bottom
+				"
+			>
+				<div class="me-5 d-none d-lg-block fs-6">
+					<span>Get connected with us on social networks:</span>
+				</div>
+				<div>
+					<a href="" class="me-4 text-reset text-decoration-none">
+						<i class="fab fa-facebook-f fs-6"></i>
+					</a>
+					<a href="" class="me-4 text-reset text-decoration-none">
+						<i class="fab fa-twitter fs-6"></i>
+					</a>
+					<a href="" class="me-4 text-reset text-decoration-none">
+						<i class="fab fa-google fs-6"></i>
+					</a>
+					<a href="" class="me-4 text-reset text-decoration-none">
+						<i class="fab fa-instagram fs-6"></i>
+					</a>
+					<a href="" class="me-4 text-reset text-decoration-none">
+						<i class="fab fa-linkedin fs-6"></i>
+					</a>
+					<a href="" class="me-4 text-reset text-decoration-none">
+						<i class="fab fa-github fs-6"></i>
+					</a>
+				</div>
+			</section>
+			<section>
+				<div class="container text-center text-md-start mt-5">
+					<div class="row mt-3">
+						<div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+							<h6 class="text-uppercase fw-bold mb-4">
+								<i class="fas fa-gem me-3"></i>dr. moutaz ali pharmacy
+							</h6>
+							<p class="text-capitalize">
+								we offer a lot of services including all types of medications
+								covering all theraputic ares as well as cosmotics
+							</p>
+						</div>
+						<div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+							<h6 class="text-uppercase fw-bold mb-4">Products</h6>
+							<p>
+								<a href="#!" class="text-reset text-capitalize">medications</a>
+							</p>
+							<p>
+								<a href="#!" class="text-reset text-capitalize">cosmotics</a>
+							</p>
+							<p>
+								<a href="#!" class="text-reset text-capitalize">consultions</a>
+							</p>
+							<p>
+								<a href="#!" class="text-reset text-capitalize">advising</a>
+							</p>
+						</div>
+						<div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+							<h6 class="text-uppercase fw-bold mb-4">Useful links</h6>
+							<p>
+								<a href="#!" class="text-reset">Pricing</a>
+							</p>
+							<p>
+								<a href="#!" class="text-reset">Settings</a>
+							</p>
+							<p>
+								<a href="#!" class="text-reset">Orders</a>
+							</p>
+							<p>
+								<a href="#!" class="text-reset">Help</a>
+							</p>
+						</div>
+						<div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+							<h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+							<p><i class="fas fa-home me-3"></i>Assiut, AS 70111, Egypt</p>
+							<p>
+								<i class="fas fa-envelope me-3"></i>
+								moutaz.ali.dev@gmail.com
+							</p>
+							<p><i class="fas fa-phone me-3"></i> + 201007176747</p>
+							<p><i class="fas fa-print me-3"></i> + 201028725378</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div
+				class="text-center p-4"
+				style="background-color: rgba(0, 0, 0, 0.05)"
+			>
+				© 2021 Copyright:
+				<a class="text-reset fw-bold text-capitalize" href="#"
+					>dr. moutaz ali pharmacy</a
+				>
+			</div>
+		</footer>
+		<!-- SECTION-END  footer-->
+		<!-- SECTION-START Modal -->
+		<div
+			class="modal fade"
+			id="exampleModal"
+			tabindex="-1"
+			aria-labelledby="exampleModalLabel"
+			aria-hidden="true"
+		>
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4
+							class="modal-title text-capitalize text-info"
+							id="exampleModalLabel"
+						>
+							sign up for free to get the latest updates about health issues
+						</h4>
+						<button
+							type="button"
+							class="btn-close"
+							data-bs-dismiss="modal"
+							aria-label="Close"
+						></button>
+					</div>
+					<div class="modal-body">
+						<form class="row g-3 needs-validation">
+							<div class="col-md-6">
+								<label for="validationCustom01" class="form-label"
+									>Full name</label
+								>
+								<input
+									type="text"
+									class="form-control"
+									id="validationCustom01"
+									required
+								/>
+								<div class="valid-feedback">Looks good!</div>
+							</div>
+							<div class="col-md-6">
+								<label for="validationCustomUsername" class="form-label"
+									>Username</label
+								>
+								<div class="input-group has-validation">
+									<input
+										type="text"
+										class="form-control"
+										id="validationCustomUsername"
+										aria-describedby="inputGroupPrepend"
+										required
+									/>
+									<div class="invalid-feedback">Please choose a username.</div>
+								</div>
+							</div>
+							<div class="col-md-12">
+								<label for="validationCustom03" class="form-label">Email</label>
+								<input
+									type="email"
+									class="form-control"
+									id="validationCustom03"
+									required
+								/>
+								<div class="invalid-feedback">
+									Please provide a valid E-mail
+								</div>
+							</div>
+							<button
+								type="button"
+								class="btn btn-secondary"
+								data-bs-dismiss="modal"
+							>
+								Close
+							</button>
+							<button type="submit" class="btn btn-info">Sign Up</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- SECTION-END MODAL-->
+		<script src="content/js/bootstrap.bundle.min.js"></script>
+		<script src="content/js/script.js"></script>
+	</body>
+</html>
